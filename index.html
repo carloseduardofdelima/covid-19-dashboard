@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid-19 - Dashboard</title>
+</head>
+<body>
+    <aside>
+        <h1>Covid-19</h1>
+        <nav>
+            <a href="#"><span class="material-icons">dashboard</span> Painel</a>
+            <a href="#"><span class="material-icons">trending_up</span> Estatísticas</a>
+            <a href="#"><span class="material-icons">mail</span> Mensagens</a>
+            <a href="#"><span class="material-icons">warning</span>Alertas</a>
+            <a href="#"><span class="material-icons">settings</span> Configurações</a>
+            <a href="#"><span class="material-icons">logout</span> Logout</a>
+        </nav>
+    </aside>
+    <main>
+        <header>
+            <div class="search">
+                <span class="material-icons">search</span>
+                <input type="search" placeholder="Procure..">
+            </div>
+            <div class="profile">
+                <span class="material-icons">account_circle</span>
+                <span>Fazer Login</span>
+            </div>
+        </header>
+
+        <section class="dados">
+            <h1>Painel</h1>
+            <div class="usuarios" id="usuarios1">
+                <span>Usuários ativos</span>
+                <div>
+                    <span id="numeros">7292</span>
+                    <span id="menos">-32,33%</span>
+                </div>
+            </div>
+            <div class="usuarios" id="usuarios2">
+                <span>Usuários totais</span>
+                <div>
+                    <span id="numeros">7292</span>
+                    <span id="mais">+35,43%</span>
+                </div>
+            </div>
+            <div class="usuarios" id="usuarios3">
+                <span>Total de visitas</span>
+                <div>
+                    <span id="numeros">12970</span>
+                    <span id="mais">+28.8%</span>
+                </div>
+            </div>
+            <div class="usuarios" id="usuarios4">
+                <span>Usuários do app</span>
+                <div>
+                    <span id="numeros">19824</span>
+                    <span id="menos">-2,4%</span>
+                </div>
+            </div>
+
+            <div class="tabelas" id="tabelas1">
+                <span id="titulo">Pacientes</span>
+                <table>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Total</th>
+                        <th>Curados</th>
+                        <th>Mortos</th>
+                    </tr>
+                    <tr>
+                        <td>Estado crítico</td>
+                        <td>782</td>
+                        <td>678</td>
+                        <td>104</td>
+                    </tr>
+                    <tr>
+                        <td>Estado não crítico</td>
+                        <td>782</td>
+                        <td>678</td>
+                        <td>104</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tabelas" id="tabelas2">
+                <span>Óbitos</span>
+                <table>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>Óbitos novos</td>
+                        <td>4.249</td>
+                    </tr>
+                    <tr>
+                        <td>Óbitos acumulados</td>
+                        <td>345.025</td>
+                    </tr>
+                    <tr>
+                        <td>Óbitos acumulados 100mi</td>
+                        <td>164</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tabelas" id="tabelas3">
+                <span>Pacientes</span>
+                <table>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Total</th>
+                        <th>Curados</th>
+                        <th>Mortos</th>
+                    </tr>
+                    <tr>
+                        <td>Estado crítico</td>
+                        <td>782</td>
+                        <td>678</td>
+                        <td>104</td>
+                    </tr>
+                    <tr>
+                        <td>Estado não crítico</td>
+                        <td>782</td>
+                        <td>678</td>
+                        <td>104</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tabelas" id="tabelas4">
+                <span>Casos</span>
+                <table>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td>Casos novos</td>
+                        <td>86.582</td>
+                    </tr>
+                    <tr>
+                        <td>Casos acumulados</td>
+                        <td>13.279.857</td>
+                    </tr>
+                    <tr>
+                        <td>Casos acumulados 100mi</td>
+                        <td>6.319</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
